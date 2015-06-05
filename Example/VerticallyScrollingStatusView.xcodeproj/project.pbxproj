@@ -65,7 +65,6 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A80E959A6D7F14C50E5D1EAF /* Pods_VerticallyScrollingStatusView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VerticallyScrollingStatusView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C631E84112223B3277E19BFA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		ECCD4D7B1B216BCD0039D3D3 /* screenshot.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screenshot.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,7 +175,6 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				ECCD4D7B1B216BCD0039D3D3 /* screenshot.gif */,
 				0BFCD902BDC0978D5C1B6FD3 /* VerticallyScrollingStatusView.podspec */,
 				C631E84112223B3277E19BFA /* README.md */,
 				53CA6DF6FE1BDA58C0F72E2A /* LICENSE */,
