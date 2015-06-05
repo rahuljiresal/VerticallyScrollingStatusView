@@ -51,7 +51,9 @@ pod "VerticallyScrollingStatusView"
 
 ## Author
 
-[Rahul Jiresal](http://www.rahuljiresal.com), rahul.jiresal@gmail.com
+Rahul Jiresal, rahul.jiresal@gmail.com
+[website](http://www.rahuljiresal.com)
+[twitter](https://www.twitter.com/rahuljiresal)
 
 Let me know if you like the pod, or have any suggestions. Any pull requests are welcome!
 
