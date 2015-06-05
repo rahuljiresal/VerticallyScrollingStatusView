@@ -10,7 +10,7 @@
 Pod::Spec.new do |s|
   s.name             = "VerticallyScrollingStatusView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of VerticallyScrollingStatusView."
+  s.summary          = "VerticallyScrollingStatusView is a dropin replacement of UIView that shows vertically scrolling messages."
   s.description      = <<-DESC
                        A subclass of UIView that shows vertically scrolling status messages. The previous message scrolls up and fades when a new one is set.
 
