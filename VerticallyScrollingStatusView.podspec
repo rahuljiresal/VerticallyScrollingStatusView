@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
 For more information, check the screenshots or try the example project.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/VerticallyScrollingStatusView"
+  s.homepage         = "https://github.com/rahuljiresal/VerticallyScrollingStatusView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Rahul Jiresal" => "rahul.jiresal@gmail.com" }
