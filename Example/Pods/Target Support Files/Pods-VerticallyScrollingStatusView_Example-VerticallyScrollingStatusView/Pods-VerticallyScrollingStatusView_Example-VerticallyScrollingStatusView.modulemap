@@ -1,0 +1,6 @@
+framework module VerticallyScrollingStatusView {
+  umbrella header "Pods-VerticallyScrollingStatusView_Example-VerticallyScrollingStatusView-umbrella.h"
+
+  export *
+  module * { export * }
+}

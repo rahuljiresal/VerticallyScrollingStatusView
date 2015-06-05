@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_VerticallyScrollingStatusView_Tests_VerticallyScrollingStatusView : NSObject
+@end
+@implementation PodsDummy_Pods_VerticallyScrollingStatusView_Tests_VerticallyScrollingStatusView
+@end

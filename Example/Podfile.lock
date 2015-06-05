@@ -1,0 +1,17 @@
+PODS:
+  - PureLayout (2.0.6)
+  - VerticallyScrollingStatusView (0.1.0):
+    - PureLayout
+
+DEPENDENCIES:
+  - VerticallyScrollingStatusView (from `../`)
+
+EXTERNAL SOURCES:
+  VerticallyScrollingStatusView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PureLayout: f25f0bb904d5ccfe6e31da3cb869185259f02e0d
+  VerticallyScrollingStatusView: f7fc0f59e85ee6f42a0861273154d7b1522e45ce
+
+COCOAPODS: 0.37.2

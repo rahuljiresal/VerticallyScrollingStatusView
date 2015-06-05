@@ -12,17 +12,15 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "A short description of VerticallyScrollingStatusView."
   s.description      = <<-DESC
-                       An optional longer description of VerticallyScrollingStatusView
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       A subclass of UIView that has scrolling animation when setting its text.
+For more information, check the screenshots or try the example project.
                        DESC
   s.homepage         = "https://github.com/<GITHUB_USERNAME>/VerticallyScrollingStatusView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Rahul Jiresal" => "rahul.jiresal@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/VerticallyScrollingStatusView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/rahuljiresal/VerticallyScrollingStatusView.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/rahuljiresal'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -34,5 +32,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'PureLayout'
 end

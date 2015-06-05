@@ -1,0 +1,31 @@
+{
+  "name": "VerticallyScrollingStatusView",
+  "version": "0.1.0",
+  "summary": "A short description of VerticallyScrollingStatusView.",
+  "description": "                       An optional longer description of VerticallyScrollingStatusView\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/VerticallyScrollingStatusView",
+  "license": "MIT",
+  "authors": {
+    "Rahul Jiresal": "rahul.jiresal@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/VerticallyScrollingStatusView.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/rahuljiresal",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "VerticallyScrollingStatusView": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "PureLayout": [
+
+    ]
+  }
+}

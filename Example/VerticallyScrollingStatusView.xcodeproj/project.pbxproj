@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A4BDD77ADA3869971986C13 /* Pods_VerticallyScrollingStatusView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D848127E15092B33A443AC6 /* Pods_VerticallyScrollingStatusView_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,6 +21,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		69E851943F9FAD8D589EB373 /* Pods_VerticallyScrollingStatusView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80E959A6D7F14C50E5D1EAF /* Pods_VerticallyScrollingStatusView_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -34,8 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BFCD902BDC0978D5C1B6FD3 /* VerticallyScrollingStatusView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = VerticallyScrollingStatusView.podspec; path = ../VerticallyScrollingStatusView.podspec; sourceTree = "<group>"; };
+		0BFCD902BDC0978D5C1B6FD3 /* VerticallyScrollingStatusView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VerticallyScrollingStatusView.podspec; path = ../VerticallyScrollingStatusView.podspec; sourceTree = "<group>"; };
+		1D848127E15092B33A443AC6 /* Pods_VerticallyScrollingStatusView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VerticallyScrollingStatusView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FCACD5500D3DB142351C69 /* Pods-VerticallyScrollingStatusView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerticallyScrollingStatusView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VerticallyScrollingStatusView_Tests/Pods-VerticallyScrollingStatusView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		53CA6DF6FE1BDA58C0F72E2A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5DB7F65D1A2225DCD31A5A61 /* Pods-VerticallyScrollingStatusView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerticallyScrollingStatusView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-VerticallyScrollingStatusView_Example/Pods-VerticallyScrollingStatusView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* VerticallyScrollingStatusView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = VerticallyScrollingStatusView.app; path = VerticallyScrollingStatusView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,8 +60,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6BE284412039CB5FAED19FED /* Pods-VerticallyScrollingStatusView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerticallyScrollingStatusView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VerticallyScrollingStatusView_Example/Pods-VerticallyScrollingStatusView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6E10A72C33C9045268EF44E8 /* Pods-VerticallyScrollingStatusView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerticallyScrollingStatusView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VerticallyScrollingStatusView_Tests/Pods-VerticallyScrollingStatusView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		C631E84112223B3277E19BFA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A80E959A6D7F14C50E5D1EAF /* Pods_VerticallyScrollingStatusView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VerticallyScrollingStatusView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C631E84112223B3277E19BFA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ECCD4D7B1B216BCD0039D3D3 /* screenshot.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screenshot.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				69E851943F9FAD8D589EB373 /* Pods_VerticallyScrollingStatusView_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +87,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				3A4BDD77ADA3869971986C13 /* Pods_VerticallyScrollingStatusView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +102,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
+				651E40B1C661A85E1BDB9BC5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +122,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
+				A80E959A6D7F14C50E5D1EAF /* Pods_VerticallyScrollingStatusView_Example.framework */,
+				1D848127E15092B33A443AC6 /* Pods_VerticallyScrollingStatusView_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -162,11 +176,23 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				ECCD4D7B1B216BCD0039D3D3 /* screenshot.gif */,
 				0BFCD902BDC0978D5C1B6FD3 /* VerticallyScrollingStatusView.podspec */,
 				C631E84112223B3277E19BFA /* README.md */,
 				53CA6DF6FE1BDA58C0F72E2A /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		651E40B1C661A85E1BDB9BC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BE284412039CB5FAED19FED /* Pods-VerticallyScrollingStatusView_Example.debug.xcconfig */,
+				5DB7F65D1A2225DCD31A5A61 /* Pods-VerticallyScrollingStatusView_Example.release.xcconfig */,
+				6E10A72C33C9045268EF44E8 /* Pods-VerticallyScrollingStatusView_Tests.debug.xcconfig */,
+				45FCACD5500D3DB142351C69 /* Pods-VerticallyScrollingStatusView_Tests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "VerticallyScrollingStatusView_Example" */;
 			buildPhases = (
+				4686B05FB580A3A7EA486ABD /* Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				B766754736EC075682E2BC30 /* Embed Pods Frameworks */,
+				2E4A97B912702E208E2FC7AD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "VerticallyScrollingStatusView_Tests" */;
 			buildPhases = (
+				78ECCA22F0E72AFF42BC4C80 /* Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				7B66A7DBB64924117FF9D4EC /* Embed Pods Frameworks */,
+				20BD6887A9B99DD03A0134EE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,7 +254,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "VerticallyScrollingStatusView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -261,6 +293,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20BD6887A9B99DD03A0134EE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VerticallyScrollingStatusView_Tests/Pods-VerticallyScrollingStatusView_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E4A97B912702E208E2FC7AD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VerticallyScrollingStatusView_Example/Pods-VerticallyScrollingStatusView_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4686B05FB580A3A7EA486ABD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		78ECCA22F0E72AFF42BC4C80 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7B66A7DBB64924117FF9D4EC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VerticallyScrollingStatusView_Tests/Pods-VerticallyScrollingStatusView_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B766754736EC075682E2BC30 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VerticallyScrollingStatusView_Example/Pods-VerticallyScrollingStatusView_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6003F586195388D20070C39A /* Sources */ = {
@@ -385,6 +510,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE284412039CB5FAED19FED /* Pods-VerticallyScrollingStatusView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -399,6 +525,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DB7F65D1A2225DCD31A5A61 /* Pods-VerticallyScrollingStatusView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -413,6 +540,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E10A72C33C9045268EF44E8 /* Pods-VerticallyScrollingStatusView_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -435,6 +563,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45FCACD5500D3DB142351C69 /* Pods-VerticallyScrollingStatusView_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -454,7 +583,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "VerticallyScrollingStatusView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,

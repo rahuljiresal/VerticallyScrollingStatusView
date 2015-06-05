@@ -1,15 +1,44 @@
 # VerticallyScrollingStatusView
 
-[![CI Status](http://img.shields.io/travis/Rahul Jiresal/VerticallyScrollingStatusView.svg?style=flat)](https://travis-ci.org/Rahul Jiresal/VerticallyScrollingStatusView)
-[![Version](https://img.shields.io/cocoapods/v/VerticallyScrollingStatusView.svg?style=flat)](http://cocoapods.org/pods/VerticallyScrollingStatusView)
-[![License](https://img.shields.io/cocoapods/l/VerticallyScrollingStatusView.svg?style=flat)](http://cocoapods.org/pods/VerticallyScrollingStatusView)
-[![Platform](https://img.shields.io/cocoapods/p/VerticallyScrollingStatusView.svg?style=flat)](http://cocoapods.org/pods/VerticallyScrollingStatusView)
+A subclass of UIView that has scrolling animation when setting its text.
+For more information, check the screenshots or try the example project.
 
-## Usage
+![Screenshot](screenshot.gif)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Usage
+
+Usage is pretty simple!
+
+```objective-c
+self.statusView = [[VerticallyScrollingStatusView alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height / 2, self.view.frame.size.width, 100.0f)];
+[self.view addSubview:self.statusView];
+```
+
+Or if you use [PureLayout](https://github.com/smileyborg/PureLayout),
+
+```objective-c
+self.statusView = [VerticallyScrollingStatusView newAutoLayoutView];
+[self.view addSubview:self.statusView];
+
+[self.statusView autoCenterInSuperview];
+[self.statusView autoMatchDimension:ALDimensionWidth toDimension:ALDimensionWidth ofView:self.view withOffset:-30.0f];
+[self.statusView autoSetDimension:ALDimensionHeight toSize:100.0f];
+
+```
+And customize it!
+```objective-c
+[self.statusView setAnimationDuration:0.5f];
+[self.statusView setFont:[UIFont systemFontOfSize:18.0]];
+[self.statusView setTextColor:[UIColor blackColor]];
+[self.statusView setNumberOfLines:2];
+
+```
+
 ## Requirements
+
+The only requirement is [PureLayout](https://github.com/smileyborg/PureLayout). However, if you're installing through CocoaPods, you don't have to worrk about that.
 
 ## Installation
 
@@ -22,7 +51,9 @@ pod "VerticallyScrollingStatusView"
 
 ## Author
 
-Rahul Jiresal, rahul.jiresal@gmail.com
+[Rahul Jiresal](http://www.rahuljiresal.com), rahul.jiresal@gmail.com
+
+Let me know if you like the pod, or have any suggestions. Any pull requests are welcome!
 
 ## License
 
