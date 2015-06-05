@@ -4,11 +4,11 @@ A subclass of UIView that shows vertically scrolling status messages. The previo
 
 For more information, check the screenshots or try the example project.
 
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
 ## Screenshot
 
 ![Screenshot](screenshot.gif)
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Usage
 
