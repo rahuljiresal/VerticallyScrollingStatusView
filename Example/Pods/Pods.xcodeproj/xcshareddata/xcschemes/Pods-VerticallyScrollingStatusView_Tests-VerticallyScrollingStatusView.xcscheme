@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D95860BF2C00825AA26640A0"
+               BlueprintIdentifier = "0DA4617E0254F93C7AD0456F"
                BuildableName = "VerticallyScrollingStatusView.framework"
                BlueprintName = "Pods-VerticallyScrollingStatusView_Tests-VerticallyScrollingStatusView"
                ReferencedContainer = "container:Pods.xcodeproj">

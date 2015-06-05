@@ -12,6 +12,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   PureLayout: f25f0bb904d5ccfe6e31da3cb869185259f02e0d
-  VerticallyScrollingStatusView: f7fc0f59e85ee6f42a0861273154d7b1522e45ce
+  VerticallyScrollingStatusView: f0d06551611e9424833298ba0201f6826448f451
 
 COCOAPODS: 0.37.2

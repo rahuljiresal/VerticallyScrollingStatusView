@@ -1,15 +1,15 @@
 {
   "name": "VerticallyScrollingStatusView",
   "version": "0.1.0",
-  "summary": "A short description of VerticallyScrollingStatusView.",
-  "description": "                       An optional longer description of VerticallyScrollingStatusView\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/VerticallyScrollingStatusView",
+  "summary": "VerticallyScrollingStatusView is a dropin replacement of UIView that shows vertically scrolling messages.",
+  "description": "                       A subclass of UIView that shows vertically scrolling status messages. The previous message scrolls up and fades when a new one is set.\n\nFor more information, check the screenshots or try the example project.\n",
+  "homepage": "https://github.com/rahuljiresal/VerticallyScrollingStatusView",
   "license": "MIT",
   "authors": {
     "Rahul Jiresal": "rahul.jiresal@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/VerticallyScrollingStatusView.git",
+    "git": "https://github.com/rahuljiresal/VerticallyScrollingStatusView.git",
     "tag": "0.1.0"
   },
   "social_media_url": "https://twitter.com/rahuljiresal",
