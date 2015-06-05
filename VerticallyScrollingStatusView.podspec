@@ -12,7 +12,8 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "A short description of VerticallyScrollingStatusView."
   s.description      = <<-DESC
-                       A subclass of UIView that has scrolling animation when setting its text.
+                       A subclass of UIView that shows vertically scrolling status messages. The previous message scrolls up and fades when a new one is set.
+
 For more information, check the screenshots or try the example project.
                        DESC
   s.homepage         = "https://github.com/<GITHUB_USERNAME>/VerticallyScrollingStatusView"
